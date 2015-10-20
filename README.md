@@ -1,5 +1,6 @@
-Programming Proficiency Test -- Example Questions
+Programming Proficiency Test 
 =========
+**Example Questions**
 
 One can typically expect two questions of complexity/challenge similar to the questions here. You will have **about two hours** to complete and submit your work.
 
