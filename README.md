@@ -26,6 +26,10 @@ For each problem you solve completely you will get 10 points towards your raw sc
 
 Compiler errors are easily caught; you will not receive any credit if your code does not compile.
 
+### Does one get a second chance?
+
+Yes; in fact one can get two additional chances. If someone does not pass the test at the first opportunity then a second test will be offered later this term. A third test will be offered in January. The caveat is that the scores for the 2nd and 3rd attempt will be capped at 17/20. (Yes, one can take the test an additional time to improve their score even if they passed the test at a prior opportunity.)
+
 ## Question 1: Find the Fibonacci Numbers
 
 Given an array of integers, find the elements in the array that are also Fibonacci numbers and return all such numbers as a list sorted in ascending order. If the array containts duplicates that are also Fibonacci numbers then the list returned should have only one entry for such numbers (i.e., the list should not contain duplicates).
