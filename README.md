@@ -11,7 +11,7 @@ This test is to help you demonstrate that you can complete some simple tasks in 
 * Can think computationally and accomplish what may be building blocks for a larger software project;
 * Are capable of using Git and Github for _elementary source code control_ tasks.
 
-## The Programming Proficiency Test and Passing CPEN 221
+## The Programming Proficiency Test and CPEN 221
 
 **All students will have to pass the programming proficiency test to pass CPEN 221.**
 
