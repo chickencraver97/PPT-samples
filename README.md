@@ -2,9 +2,9 @@ Programming Proficiency Test
 =========
 **Example Questions**
 
-Here are four example questions.
+Here are six example questions.
 
-You will be assigned two questions during the test and will have **about two hours** to complete and submit your work.
+You will be assigned **two questions** during the test and will have **about two hours** to complete and submit your work.
 
 ## What is the Programming Proficiency Test for?
 
@@ -19,16 +19,13 @@ This test is to help you demonstrate that you can complete some simple tasks in 
 
 To pass the proficiency test:
 * You must submit your work on time;
-* You must solve at least one of the questions completely, which means that your implementation should pass the public tests as well as additional tests that will be used to stress test the implementation;
-* You must solve the other question at least partially: your submission must compile and must pass a reasonable fraction of tests.
+* Ideally, you must solve both questions completely, which means that your implementation should pass the public tests as well as additional tests that will be used to stress test the implementation.
 
-For each problem you solve completely you will get 10 points towards your raw score in the course. A partially correct implementation will receive a score between 3 and 6. (A passing score on the test is therefore 13/20.)
-
-Compiler errors are easily caught; you will not receive any credit if your code does not compile.
+**Compiler errors are easily caught; you will not receive any credit if your code does not compile.**
 
 ### Does one get a second chance?
 
-Yes; in fact one can get two additional chances. If someone does not pass the test at the first opportunity then a second test will be offered later this term. A third test will be offered in January. The caveat is that the scores for the 2nd and 3rd attempt will be capped at 17/20. (Yes, one can take the test an additional time to improve their score even if they passed the test at a prior opportunity.)
+Yes. If someone does not pass the test at the first opportunity then a second test will be offered later this term. A third test *may* be offered in January. The caveat is that the scores for subsequent attempts will be capped at 18/20.
 
 ## Question 1: Find the Fibonacci Numbers
 
