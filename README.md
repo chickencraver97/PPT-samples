@@ -4,7 +4,7 @@ Programming Proficiency Test
 
 Here are six example questions.
 
-You will be assigned **two questions** during the test and will have **about two hours** to complete and submit your work.
+You will be assigned **two questions** (*no, not from these six*) during the test and will have **about two hours** to complete and submit your work.
 
 ## What is the Programming Proficiency Test for?
 
