@@ -1,8 +1,8 @@
-Programming Proficiency Test 
+Programming Proficiency Test
 =========
 **Example Questions**
 
-Here are four example questions. 
+Here are four example questions.
 
 You will be assigned two questions during the test and will have **about two hours** to complete and submit your work.
 
@@ -22,7 +22,7 @@ To pass the proficiency test:
 * You must solve at least one of the questions completely, which means that your implementation should pass the public tests as well as additional tests that will be used to stress test the implementation;
 * You must solve the other question at least partially: your submission must compile and must pass a reasonable fraction of tests.
 
-For each problem you solve completely you will get 10 points towards your raw score in the course. A partially correct implementation will receive a score between 3 and 6. (A passing score on the test is therefore 13/20.) 
+For each problem you solve completely you will get 10 points towards your raw score in the course. A partially correct implementation will receive a score between 3 and 6. (A passing score on the test is therefore 13/20.)
 
 Compiler errors are easily caught; you will not receive any credit if your code does not compile.
 
@@ -48,8 +48,8 @@ Responses to potential doubts:
 
 ## Question 3: Prime Factorization
 
-Given an integer n, this method returns a string that represents the prime factorization of n.
-	 
+Given an integer `n`, this method returns a string that represents the prime factorization of `n`.
+
 The prime numbers that are factors of n must appear in ascending order in the returned string.
 
 #### Examples
@@ -74,6 +74,81 @@ You have to implement a method that takes integers A and B as input and returns 
 1. **m = 2, n = 6**. The `Triple` returned would have `a=2`, `b=1`, `c=0` because the game would result in the sequence 2, zip, 4, zap, zip.
 1. **m = 150, n = 165**. The `Triple` returned would have `a=4`, `b=2`, `c=2`.
 1. **m = 474747, n = 747474**. The `Triple` returned would have `a=72728`, `b=36363` and `c=18182`.
+
+## Question 5: Zero-Sum Subsequences
+
+> The skeleton source code for this question is in the package `zeroSumSubsequence`. You have to implement the method _getMaximumLength_ in the class _ZeroSumSubsequence_.
+
+Given a list of integers, find the length of the longest subsequence that has a sum of 0. If there is no subsequence that has a sum of 0 then your algorithm would return 0.
+
+#### Examples
+
++ [2, -2]
+	+ Returns: 2
+	+ The subsequence is 2, -2.
+
++ [3, 4, -2, -1]
+	+ Returns: 3
+	+ The subsequence is 3, -2, -1.
+
++ [-1, -1, 2, -1, -2, 4]
+	+ Returns: 4
+	+ The subsequence is -1, -1, -2, 4.
+
++ [1, 2, 0]
+	+ Returns: 1
+	+ The subsequence is 0.
+
++ [1, 1, 2]
+	+ Returns: 0
+	+ There is no 0-sum subsequence.
+
+## Question 6: String Sums
+
+> The skeleton source code for this question is in the package `stringsum`. You have to implement the method _getStringSum_ in the class _StringSum_.
+
+Let us define the value of each alphabet as follows:
+```
+A = 1
+B = 2
+C = 3
+...
+Y = 25
+Z = 26
+```
+The value is the same irrespective of whether the alphabet appears in lowercase or uppercase.
+
+Given a string _s_, let `s[i]` be the i<sup>th</sup> character in the string. We define `f(s[i])` as the number of times an alphabet of value less than or equal to the value of `s[i]` appears in the string `s`. We can use `val(s[i])` to denote the value of the alphabet at position `i` in `s`.
+
+The _string sum_ is then defined as the sum of `val(s[i]) * f(s[i])` for all valid `i`.
+
+If `s[i]` is not an alphabet then it does not contribute to the string sum or to the computation of `f()` for other alphabets in the string.
+
+Implement a method to compute the _string sum_ given a string.
+
+#### Examples
+
++ bAbca
+	+ Returns: 35
+	+ The value of this string is `2*4 + 1*2 + 2*4 + 3*5 + 1*2 = 35`. We can get the value as follows. The first character is a 'b' which has value 2, and has 4 characters that are less than or equal to it in the string (i.e. the first, second, third and fifth character of the string). Thus, this first character contributes `2*4` to the sum. We can derive a similar expression for each of the other characters.
+
++ zz
+	+ Returns: 104
+
++ y
+	+ Returns: 25
+
++ y-
+	+ Returns: 25
+
++ aaabbc!
+	+ Returns: 47
+
++ TheQuickBrownFoxJumpsOverTheLazyDog
+	+ Returns: 11187
+
++ zyxwvutsrqponmlkjihgfedcba
+	+ Returns: 6201
 
 ## What Should You Implement / Guidelines
 
