@@ -82,4 +82,4 @@ You have to implement a method that takes integers A and B as input and returns 
 + You can implement additional helper methods if you need to but you should keep these methods `private` to the appropriate classes.
 + You do not need to implement new classes.
 + You can use additional standard Java libraries by importing them.
-+ Do not throw new exceptions unless the specification for the method permits exceptions.\
++ Do not throw new exceptions unless the specification for the method permits exceptions.
